@@ -25,7 +25,6 @@ nav a {
 
 .top-navbar {
   justify-content: space-between;
-  /* Don't need rem here specifically, just what I often default to */
   padding-inline: 1rem;
 }
 
@@ -73,20 +72,23 @@ nav a {
   height: 100%;
   margin-bottom: 0.3vw;
   overflow: auto;
-  padding: 1.5vh;
+  overflow-wrap: break-word;
   z-index: 1;
+}
+
+.story {
+  padding: 1.5vh;
 }
 
 .notes {
   overflow-x: hidden;
   overflow-y: auto;
-  overflow-wrap: break-word;
   height: 100%;
   outline: none;
   padding: 2vw;
 }
 
-/* Track */
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -133,6 +135,7 @@ input {
   background-color: #efe5d1;
   border: 0;
   border-bottom: 1rem solid #6d482d;
+  border-radius: 0 0 7px 7px;
   margin-bottom: -1vw;
   margin-left: max(-1vw, -1.2vh);
   outline: none;
@@ -144,6 +147,6 @@ input {
   z-index: 2;
 }
 
-input:focus {
+input:focus, input:hover {
   border-color: #00b023;
 }
