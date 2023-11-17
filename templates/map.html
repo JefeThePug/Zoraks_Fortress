@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ 
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../static/css/style.css">
     <title>Zorak's Fortress</title>
   </head>
-
+ 
   <body>
-
+ 
     <nav class="top-navbar">
       <div class="left-items">
-        <a href="#">Home</a>
+        <a href="game.html">Home</a>
         <a href="#">About</a>
       </div>
       <div class="center-items">
@@ -23,376 +23,378 @@
         <a href="#">How to Play</a>
       </div>
     </nav>
-
-      <div class="main">
-        <div class="frame">
-          <img src="../static/img/frame.png" alt="Map">
+ 
+    <div class="main">
+      <!-- <div class="frame">
+        <img src="../static/img/frame.png" alt="Map">
+      </div> -->
+      <div class="map">
+        <!--{% for col in map_cols %}-->
+        <div class="column">
+          <!--{% for img in cols %}-->
+          <!-- <img src="../static/img/tiles/{{img}}.png"> -->
+          <img src="../static/img/tiles_copy/6b86b.png">
+          <img src="../static/img/tiles_copy/785f3.png">
+          <img src="../static/img/tiles_copy/44cb7.png">
+          <img src="../static/img/tiles_copy/a68b4.png">
+          <img src="../static/img/tiles_copy/b4944.png">
+          <img src="../static/img/tiles_copy/482d9.png">
+          <img src="../static/img/tiles_copy/922c7.png">
+          <img src="../static/img/tiles_copy/ec2e9.png">
+          <img src="../static/img/tiles_copy/f57e5.png">
+          <img src="../static/img/tiles_copy/23973.png">
+          <img src="../static/img/tiles_copy/09343.png">
+          <img src="../static/img/tiles_copy/835d5.png">
+          <img src="../static/img/tiles_copy/e7866.png">
+          <img src="../static/img/tiles_copy/71812.png">
+          <img src="../static/img/tiles_copy/9cfd3.png">
+          <img src="../static/img/tiles_copy/7a203.png">
+          <!-- {% endfor %}-->
         </div>
-        <div class="map">
-          <!--{% for col in map_cols %}-->
-          <div class="column">
-            <!--{% for img in cols %}-->
-            <!-- <img src="../static/img/tiles/{{img}}.png"> -->
-            <img src="../static/img/tiles_copy/6b86b.png">
-            <img src="../static/img/tiles_copy/785f3.png">
-            <img src="../static/img/tiles_copy/44cb7.png">
-            <img src="../static/img/tiles_copy/a68b4.png">
-            <img src="../static/img/tiles_copy/b4944.png">
-            <img src="../static/img/tiles_copy/482d9.png">
-            <img src="../static/img/tiles_copy/922c7.png">
-            <img src="../static/img/tiles_copy/ec2e9.png">
-            <img src="../static/img/tiles_copy/f57e5.png">
-            <img src="../static/img/tiles_copy/23973.png">
-            <img src="../static/img/tiles_copy/09343.png">
-            <img src="../static/img/tiles_copy/835d5.png">
-            <img src="../static/img/tiles_copy/e7866.png">
-            <img src="../static/img/tiles_copy/71812.png">
-            <img src="../static/img/tiles_copy/9cfd3.png">
-            <img src="../static/img/tiles_copy/7a203.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/d4735.png">
-            <img src="../static/img/tiles_copy/535fa.png">
-            <img src="../static/img/tiles_copy/71ee4.png">
-            <img src="../static/img/tiles_copy/108c9.png">
-            <img src="../static/img/tiles_copy/434c9.png">
-            <img src="../static/img/tiles_copy/3346f.png">
-            <img src="../static/img/tiles_copy/2747b.png">
-            <img src="../static/img/tiles_copy/05ada.png">
-            <img src="../static/img/tiles_copy/734d0.png">
-            <img src="../static/img/tiles_copy/70260.png">
-            <img src="../static/img/tiles_copy/fa2b7.png">
-            <img src="../static/img/tiles_copy/c0509.png">
-            <img src="../static/img/tiles_copy/9512d.png">
-            <img src="../static/img/tiles_copy/3a1df.png">
-            <img src="../static/img/tiles_copy/a0f8b.png">
-            <img src="../static/img/tiles_copy/8d1ed.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/4e074.png">
-            <img src="../static/img/tiles_copy/c2356.png">
-            <img src="../static/img/tiles_copy/81178.png">
-            <img src="../static/img/tiles_copy/3ada9.png">
-            <img src="../static/img/tiles_copy/bdd2d.png">
-            <img src="../static/img/tiles_copy/9537f.png">
-            <img src="../static/img/tiles_copy/65662.png">
-            <img src="../static/img/tiles_copy/9ae2b.png">
-            <img src="../static/img/tiles_copy/284de.png">
-            <img src="../static/img/tiles_copy/eb3be.png">
-            <img src="../static/img/tiles_copy/d48ff.png">
-            <img src="../static/img/tiles_copy/114bd.png">
-            <img src="../static/img/tiles_copy/9556b.png">
-            <img src="../static/img/tiles_copy/c76b4.png">
-            <img src="../static/img/tiles_copy/4c15f.png">
-            <img src="../static/img/tiles_copy/aae02.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/4b227.png">
-            <img src="../static/img/tiles_copy/b7a56.png">
-            <img src="../static/img/tiles_copy/25fc0.png">
-            <img src="../static/img/tiles_copy/49d18.png">
-            <img src="../static/img/tiles_copy/8b940.png">
-            <img src="../static/img/tiles_copy/0fd42.png">
-            <img src="../static/img/tiles_copy/38d66.png">
-            <img src="../static/img/tiles_copy/8e612.png">
-            <img src="../static/img/tiles_copy/68519.png">
-            <img src="../static/img/tiles_copy/684fe.png">
-            <img src="../static/img/tiles_copy/802b9.png">
-            <img src="../static/img/tiles_copy/0a2d6.png">
-            <img src="../static/img/tiles_copy/51e8e.png">
-            <img src="../static/img/tiles_copy/27d71.png">
-            <img src="../static/img/tiles_copy/76ebd.png">
-            <img src="../static/img/tiles_copy/15609.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/ef2d1.png">
-            <img src="../static/img/tiles_copy/5f9c4.png">
-            <img src="../static/img/tiles_copy/31489.png">
-            <img src="../static/img/tiles_copy/a2185.png">
-            <img src="../static/img/tiles_copy/cd70b.png">
-            <img src="../static/img/tiles_copy/9bdb2.png">
-            <img src="../static/img/tiles_copy/eeca9.png">
-            <img src="../static/img/tiles_copy/04306.png">
-            <img src="../static/img/tiles_copy/4a859.png">
-            <img src="../static/img/tiles_copy/7559c.png">
-            <img src="../static/img/tiles_copy/d8658.png">
-            <img src="../static/img/tiles_copy/9a049.png">
-            <img src="../static/img/tiles_copy/4c970.png">
-            <img src="../static/img/tiles_copy/ee62d.png">
-            <img src="../static/img/tiles_copy/30883.png">
-            <img src="../static/img/tiles_copy/88820.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/e7f6c.png">
-            <img src="../static/img/tiles_copy/67067.png">
-            <img src="../static/img/tiles_copy/98010.png">
-            <img src="../static/img/tiles_copy/c75cb.png">
-            <img src="../static/img/tiles_copy/69f59.png">
-            <img src="../static/img/tiles_copy/f6e0a.png">
-            <img src="../static/img/tiles_copy/dbb1d.png">
-            <img src="../static/img/tiles_copy/620c9.png">
-            <img src="../static/img/tiles_copy/41e52.png">
-            <img src="../static/img/tiles_copy/1dfac.png">
-            <img src="../static/img/tiles_copy/0f412.png">
-            <img src="../static/img/tiles_copy/f0bc3.png">
-            <img src="../static/img/tiles_copy/a30f4.png">
-            <img src="../static/img/tiles_copy/efd96.png">
-            <img src="../static/img/tiles_copy/983bd.png">
-            <img src="../static/img/tiles_copy/8d23c.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/79026.png">
-            <img src="../static/img/tiles_copy/59e19.png">
-            <img src="../static/img/tiles_copy/0e17d.png">
-            <img src="../static/img/tiles_copy/ff5a1.png">
-            <img src="../static/img/tiles_copy/1da51.png">
-            <img src="../static/img/tiles_copy/b1556.png">
-            <img src="../static/img/tiles_copy/d2f48.png">
-            <img src="../static/img/tiles_copy/1d0eb.png">
-            <img src="../static/img/tiles_copy/dac53.png">
-            <img src="../static/img/tiles_copy/b4bbe.png">
-            <img src="../static/img/tiles_copy/16bad.png">
-            <img src="../static/img/tiles_copy/8ae4c.png">
-            <img src="../static/img/tiles_copy/7c252.png">
-            <img src="../static/img/tiles_copy/7f0a2.png">
-            <img src="../static/img/tiles_copy/c3ea9.png">
-            <img src="../static/img/tiles_copy/f10d9.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/2c624.png">
-            <img src="../static/img/tiles_copy/35135.png">
-            <img src="../static/img/tiles_copy/1a656.png">
-            <img src="../static/img/tiles_copy/7f225.png">
-            <img src="../static/img/tiles_copy/82416.png">
-            <img src="../static/img/tiles_copy/6c658.png">
-            <img src="../static/img/tiles_copy/5d389.png">
-            <img src="../static/img/tiles_copy/210e3.png">
-            <img src="../static/img/tiles_copy/cba28.png">
-            <img src="../static/img/tiles_copy/8bcbb.png">
-            <img src="../static/img/tiles_copy/5966a.png">
-            <img src="../static/img/tiles_copy/79bf0.png">
-            <img src="../static/img/tiles_copy/39bb8.png">
-            <img src="../static/img/tiles_copy/71a1c.png">
-            <img src="../static/img/tiles_copy/f3282.png">
-            <img src="../static/img/tiles_copy/3949a.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/19581.png">
-            <img src="../static/img/tiles_copy/624b6.png">
-            <img src="../static/img/tiles_copy/031b4.png">
-            <img src="../static/img/tiles_copy/87226.png">
-            <img src="../static/img/tiles_copy/6e400.png">
-            <img src="../static/img/tiles_copy/9f1f9.png">
-            <img src="../static/img/tiles_copy/13671.png">
-            <img src="../static/img/tiles_copy/0fecf.png">
-            <img src="../static/img/tiles_copy/8cd25.png">
-            <img src="../static/img/tiles_copy/a4e00.png">
-            <img src="../static/img/tiles_copy/314f0.png">
-            <img src="../static/img/tiles_copy/6af1f.png">
-            <img src="../static/img/tiles_copy/e888a.png">
-            <img src="../static/img/tiles_copy/27e16.png">
-            <img src="../static/img/tiles_copy/8bd9c.png">
-            <img src="../static/img/tiles_copy/1038e.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/4a44d.png">
-            <img src="../static/img/tiles_copy/eb1e3.png">
-            <img src="../static/img/tiles_copy/41cfc.png">
-            <img src="../static/img/tiles_copy/96061.png">
-            <img src="../static/img/tiles_copy/e3d6c.png">
-            <img src="../static/img/tiles_copy/28dae.png">
-            <img src="../static/img/tiles_copy/36ebe.png">
-            <img src="../static/img/tiles_copy/c75de.png">
-            <img src="../static/img/tiles_copy/01d54.png">
-            <img src="../static/img/tiles_copy/5a39c.png">
-            <img src="../static/img/tiles_copy/36790.png">
-            <img src="../static/img/tiles_copy/749fc.png">
-            <img src="../static/img/tiles_copy/9e6a7.png">
-            <img src="../static/img/tiles_copy/e0850.png">
-            <img src="../static/img/tiles_copy/d874e.png">
-            <img src="../static/img/tiles_copy/9e11c.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/4fc82.png">
-            <img src="../static/img/tiles_copy/e29c9.png">
-            <img src="../static/img/tiles_copy/2858d.png">
-            <img src="../static/img/tiles_copy/eb624.png">
-            <img src="../static/img/tiles_copy/ad48f.png">
-            <img src="../static/img/tiles_copy/e5b86.png">
-            <img src="../static/img/tiles_copy/d80ea.png">
-            <img src="../static/img/tiles_copy/7ed8f.png">
-            <img src="../static/img/tiles_copy/30684.png">
-            <img src="../static/img/tiles_copy/27bad.png">
-            <img src="../static/img/tiles_copy/67e9c.png">
-            <img src="../static/img/tiles_copy/14063.png">
-            <img src="../static/img/tiles_copy/4be84.png">
-            <img src="../static/img/tiles_copy/1e68e.png">
-            <img src="../static/img/tiles_copy/090d3.png">
-            <img src="../static/img/tiles_copy/a4e98.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/6b51d.png">
-            <img src="../static/img/tiles_copy/c6f3a.png">
-            <img src="../static/img/tiles_copy/2fca3.png">
-            <img src="../static/img/tiles_copy/f369c.png">
-            <img src="../static/img/tiles_copy/7b1a2.png">
-            <img src="../static/img/tiles_copy/2ac87.png">
-            <img src="../static/img/tiles_copy/d6a40.png">
-            <img src="../static/img/tiles_copy/ff2cc.png">
-            <img src="../static/img/tiles_copy/7b697.png">
-            <img src="../static/img/tiles_copy/43974.png">
-            <img src="../static/img/tiles_copy/9b871.png">
-            <img src="../static/img/tiles_copy/72440.png">
-            <img src="../static/img/tiles_copy/bba58.png">
-            <img src="../static/img/tiles_copy/a0d17.png">
-            <img src="../static/img/tiles_copy/38b83.png">
-            <img src="../static/img/tiles_copy/02cca.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/3fdba.png">
-            <img src="../static/img/tiles_copy/86e50.png">
-            <img src="../static/img/tiles_copy/02d20.png">
-            <img src="../static/img/tiles_copy/f74ef.png">
-            <img src="../static/img/tiles_copy/d6d82.png">
-            <img src="../static/img/tiles_copy/85daa.png">
-            <img src="../static/img/tiles_copy/8d27b.png">
-            <img src="../static/img/tiles_copy/a512d.png">
-            <img src="../static/img/tiles_copy/58081.png">
-            <img src="../static/img/tiles_copy/c17ed.png">
-            <img src="../static/img/tiles_copy/56f4d.png">
-            <img src="../static/img/tiles_copy/82c01.png">
-            <img src="../static/img/tiles_copy/768b8.png">
-            <img src="../static/img/tiles_copy/00328.png">
-            <img src="../static/img/tiles_copy/6d976.png">
-            <img src="../static/img/tiles_copy/24529.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/8527a.png">
-            <img src="../static/img/tiles_copy/9f140.png">
-            <img src="../static/img/tiles_copy/7688b.png">
-            <img src="../static/img/tiles_copy/a88a7.png">
-            <img src="../static/img/tiles_copy/29db0.png">
-            <img src="../static/img/tiles_copy/3038b.png">
-            <img src="../static/img/tiles_copy/dbae7.png">
-            <img src="../static/img/tiles_copy/bb668.png">
-            <img src="../static/img/tiles_copy/bfa76.png">
-            <img src="../static/img/tiles_copy/4621c.png">
-            <img src="../static/img/tiles_copy/84a50.png">
-            <img src="../static/img/tiles_copy/011af.png">
-            <img src="../static/img/tiles_copy/ea5b2.png">
-            <img src="../static/img/tiles_copy/d7cda.png">
-            <img src="../static/img/tiles_copy/48a17.png">
-            <img src="../static/img/tiles_copy/07919.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/e629f.png">
-            <img src="../static/img/tiles_copy/76a50.png">
-            <img src="../static/img/tiles_copy/c8376.png">
-            <img src="../static/img/tiles_copy/349c4.png">
-            <img src="../static/img/tiles_copy/8c1f1.png">
-            <img src="../static/img/tiles_copy/2abac.png">
-            <img src="../static/img/tiles_copy/2c7d5.png">
-            <img src="../static/img/tiles_copy/79d6e.png">
-            <img src="../static/img/tiles_copy/b8aed.png">
-            <img src="../static/img/tiles_copy/fc56d.png">
-            <img src="../static/img/tiles_copy/0e652.png">
-            <img src="../static/img/tiles_copy/37c20.png">
-            <img src="../static/img/tiles_copy/8acc2.png">
-            <img src="../static/img/tiles_copy/23c65.png">
-            <img src="../static/img/tiles_copy/43c72.png">
-            <img src="../static/img/tiles_copy/5426d.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/b17ef.png">
-            <img src="../static/img/tiles_copy/7a61b.png">
-            <img src="../static/img/tiles_copy/6208e.png">
-            <img src="../static/img/tiles_copy/98a3a.png">
-            <img src="../static/img/tiles_copy/ad573.png">
-            <img src="../static/img/tiles_copy/89aa1.png">
-            <img src="../static/img/tiles_copy/d4ee9.png">
-            <img src="../static/img/tiles_copy/3d328.png">
-            <img src="../static/img/tiles_copy/52f11.png">
-            <img src="../static/img/tiles_copy/f8809.png">
-            <img src="../static/img/tiles_copy/8f1f6.png">
-            <img src="../static/img/tiles_copy/396f8.png">
-            <img src="../static/img/tiles_copy/8b496.png">
-            <img src="../static/img/tiles_copy/af180.png">
-            <img src="../static/img/tiles_copy/226f7.png">
-            <img src="../static/img/tiles_copy/0bba8.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/45235.png">
-            <img src="../static/img/tiles_copy/aea92.png">
-            <img src="../static/img/tiles_copy/3e1e9.png">
-            <img src="../static/img/tiles_copy/48449.png">
-            <img src="../static/img/tiles_copy/16dc3.png">
-            <img src="../static/img/tiles_copy/1be00.png">
-            <img src="../static/img/tiles_copy/d6f0c.png">
-            <img src="../static/img/tiles_copy/3f980.png">
-            <img src="../static/img/tiles_copy/61a22.png">
-            <img src="../static/img/tiles_copy/5cf4e.png">
-            <img src="../static/img/tiles_copy/dfe62.png">
-            <img src="../static/img/tiles_copy/766cb.png">
-            <img src="../static/img/tiles_copy/f7478.png">
-            <img src="../static/img/tiles_copy/09895.png">
-            <img src="../static/img/tiles_copy/20e9c.png">
-            <img src="../static/img/tiles_copy/71047.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/4ec95.png">
-            <img src="../static/img/tiles_copy/0b918.png">
-            <img src="../static/img/tiles_copy/39fa9.png">
-            <img src="../static/img/tiles_copy/5316c.png">
-            <img src="../static/img/tiles_copy/37834.png">
-            <img src="../static/img/tiles_copy/a665a.png">
-            <img src="../static/img/tiles_copy/5ec1a.png">
-            <img src="../static/img/tiles_copy/bc52d.png">
-            <img src="../static/img/tiles_copy/28117.png">
-            <img src="../static/img/tiles_copy/96807.png">
-            <img src="../static/img/tiles_copy/9d693.png">
-            <img src="../static/img/tiles_copy/9f484.png">
-            <img src="../static/img/tiles_copy/d8d17.png">
-            <img src="../static/img/tiles_copy/33512.png">
-            <img src="../static/img/tiles_copy/86573.png">
-            <img src="../static/img/tiles_copy/556d7.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/9400f.png">
-            <img src="../static/img/tiles_copy/d59ec.png">
-            <img src="../static/img/tiles_copy/d029f.png">
-            <img src="../static/img/tiles_copy/a46e3.png">
-            <img src="../static/img/tiles_copy/454f6.png">
-            <img src="../static/img/tiles_copy/6affd.png">
-            <img src="../static/img/tiles_copy/be47a.png">
-            <img src="../static/img/tiles_copy/e0f05.png">
-            <img src="../static/img/tiles_copy/38b2d.png">
-            <img src="../static/img/tiles_copy/8df66.png">
-            <img src="../static/img/tiles_copy/08490.png">
-            <img src="../static/img/tiles_copy/1e472.png">
-            <img src="../static/img/tiles_copy/3635a.png">
-            <img src="../static/img/tiles_copy/6db6e.png">
-            <img src="../static/img/tiles_copy/8efbb.png">
-            <img src="../static/img/tiles_copy/058d5.png">
-          </div>
-          <div class="column">
-            <img src="../static/img/tiles_copy/f5ca3.png">
-            <img src="../static/img/tiles_copy/3d914.png">
-            <img src="../static/img/tiles_copy/81b8a.png">
-            <img src="../static/img/tiles_copy/bbb96.png">
-            <img src="../static/img/tiles_copy/5ef6f.png">
-            <img src="../static/img/tiles_copy/0f8ef.png">
-            <img src="../static/img/tiles_copy/0a5b0.png">
-            <img src="../static/img/tiles_copy/73d3f.png">
-            <img src="../static/img/tiles_copy/d6061.png">
-            <img src="../static/img/tiles_copy/83f81.png">
-            <img src="../static/img/tiles_copy/a0eae.png">
-            <img src="../static/img/tiles_copy/c75d3.png">
-            <img src="../static/img/tiles_copy/1c6c0.png">
-            <img src="../static/img/tiles_copy/7cb67.png">
-            <img src="../static/img/tiles_copy/74806.png">
-            <img src="../static/img/tiles_copy/7acc6.png">
-          </div>
-          <div class="column">
+        <!-- {% endfor %}-->
+        <div class="column">
+          <img src="../static/img/tiles_copy/d4735.png">
+          <img src="../static/img/tiles_copy/535fa.png">
+          <img src="../static/img/tiles_copy/71ee4.png">
+          <img src="../static/img/tiles_copy/108c9.png">
+          <img src="../static/img/tiles_copy/434c9.png">
+          <img src="../static/img/tiles_copy/3346f.png">
+          <img src="../static/img/tiles_copy/2747b.png">
+          <img src="../static/img/tiles_copy/05ada.png">
+          <img src="../static/img/tiles_copy/734d0.png">
+          <img src="../static/img/tiles_copy/70260.png">
+          <img src="../static/img/tiles_copy/fa2b7.png">
+          <img src="../static/img/tiles_copy/c0509.png">
+          <img src="../static/img/tiles_copy/9512d.png">
+          <img src="../static/img/tiles_copy/3a1df.png">
+          <img src="../static/img/tiles_copy/a0f8b.png">
+          <img src="../static/img/tiles_copy/8d1ed.png">
+        </div>
+        <div class="column">
+          <img src="../static/img/tiles_copy/4e074.png">
+          <img src="../static/img/tiles_copy/c2356.png">
+          <img src="../static/img/tiles_copy/81178.png">
+          <img src="../static/img/tiles_copy/3ada9.png">
+          <img src="../static/img/tiles_copy/bdd2d.png">
+          <img src="../static/img/tiles_copy/9537f.png">
+          <img src="../static/img/tiles_copy/65662.png">
+          <img src="../static/img/tiles_copy/9ae2b.png">
+          <img src="../static/img/tiles_copy/284de.png">
+          <img src="../static/img/tiles_copy/eb3be.png">
+          <img src="../static/img/tiles_copy/d48ff.png">
+          <img src="../static/img/tiles_copy/114bd.png">
+          <img src="../static/img/tiles_copy/9556b.png">
+          <img src="../static/img/tiles_copy/c76b4.png">
+          <img src="../static/img/tiles_copy/4c15f.png">
+          <img src="../static/img/tiles_copy/aae02.png">
+        </div>
+        <div class="column">
+          <img src="../static/img/tiles_copy/4b227.png">
+          <img src="../static/img/tiles_copy/b7a56.png">
+          <img src="../static/img/tiles_copy/25fc0.png">
+          <img src="../static/img/tiles_copy/49d18.png">
+          <img src="../static/img/tiles_copy/8b940.png">
+          <img src="../static/img/tiles_copy/0fd42.png">
+          <img src="../static/img/tiles_copy/38d66.png">
+          <img src="../static/img/tiles_copy/8e612.png">
+          <img src="../static/img/tiles_copy/68519.png">
+          <img src="../static/img/tiles_copy/684fe.png">
+          <img src="../static/img/tiles_copy/802b9.png">
+          <img src="../static/img/tiles_copy/0a2d6.png">
+          <img src="../static/img/tiles_copy/51e8e.png">
+          <img src="../static/img/tiles_copy/27d71.png">
+          <img src="../static/img/tiles_copy/76ebd.png">
+          <img src="../static/img/tiles_copy/15609.png">
+        </div>
+        <div class="column">
+          <img src="../static/img/tiles_copy/ef2d1.png">
+          <img src="../static/img/tiles_copy/5f9c4.png">
+          <img src="../static/img/tiles_copy/31489.png">
+          <img src="../static/img/tiles_copy/a2185.png">
+          <img src="../static/img/tiles_copy/cd70b.png">
+          <img src="../static/img/tiles_copy/9bdb2.png">
+          <img src="../static/img/tiles_copy/eeca9.png">
+          <img src="../static/img/tiles_copy/04306.png">
+          <img src="../static/img/tiles_copy/4a859.png">
+          <img src="../static/img/tiles_copy/7559c.png">
+          <img src="../static/img/tiles_copy/d8658.png">
+          <img src="../static/img/tiles_copy/9a049.png">
+          <img src="../static/img/tiles_copy/4c970.png">
+          <img src="../static/img/tiles_copy/ee62d.png">
+          <img src="../static/img/tiles_copy/30883.png">
+          <img src="../static/img/tiles_copy/88820.png">
+        </div>
+        <div class="column">
+          <img src="../static/img/tiles_copy/e7f6c.png">
+          <img src="../static/img/tiles_copy/67067.png">
+          <img src="../static/img/tiles_copy/98010.png">
+          <img src="../static/img/tiles_copy/c75cb.png">
+          <img src="../static/img/tiles_copy/69f59.png">
+          <img src="../static/img/tiles_copy/f6e0a.png">
+          <img src="../static/img/tiles_copy/dbb1d.png">
+          <img src="../static/img/tiles_copy/620c9.png">
+          <img src="../static/img/tiles_copy/41e52.png">
+          <img src="../static/img/tiles_copy/1dfac.png">
+          <img src="../static/img/tiles_copy/0f412.png">
+          <img src="../static/img/tiles_copy/f0bc3.png">
+          <img src="../static/img/tiles_copy/a30f4.png">
+          <img src="../static/img/tiles_copy/efd96.png">
+          <img src="../static/img/tiles_copy/983bd.png">
+          <img src="../static/img/tiles_copy/8d23c.png">
+        </div>
+        <div class="column">
+          <img src="../static/img/tiles_copy/79026.png">
+          <img src="../static/img/tiles_copy/59e19.png">
+          <img src="../static/img/tiles_copy/0e17d.png">
+          <img src="../static/img/tiles_copy/ff5a1.png">
+          <img src="../static/img/tiles_copy/1da51.png">
+          <img src="../static/img/tiles_copy/b1556.png">
+          <img src="../static/img/tiles_copy/d2f48.png">
+          <img src="../static/img/tiles_copy/1d0eb.png">
+          <img src="../static/img/tiles_copy/dac53.png">
+          <img src="../static/img/tiles_copy/b4bbe.png">
+          <img src="../static/img/tiles_copy/16bad.png">
+          <img src="../static/img/tiles_copy/8ae4c.png">
+          <img src="../static/img/tiles_copy/7c252.png">
+          <img src="../static/img/tiles_copy/7f0a2.png">
+          <img src="../static/img/tiles_copy/c3ea9.png">
+          <img src="../static/img/tiles_copy/f10d9.png">
+        </div>
+        <div class="column">
+          <img src="../static/img/tiles_copy/2c624.png">
+          <img src="../static/img/tiles_copy/35135.png">
+          <img src="../static/img/tiles_copy/1a656.png">
+          <img src="../static/img/tiles_copy/7f225.png">
+          <img src="../static/img/tiles_copy/82416.png">
+          <img src="../static/img/tiles_copy/6c658.png">
+          <img src="../static/img/tiles_copy/5d389.png">
+          <img src="../static/img/tiles_copy/210e3.png">
+          <img src="../static/img/tiles_copy/cba28.png">
+          <img src="../static/img/tiles_copy/8bcbb.png">
+          <img src="../static/img/tiles_copy/5966a.png">
+          <img src="../static/img/tiles_copy/79bf0.png">
+          <img src="../static/img/tiles_copy/39bb8.png">
+          <img src="../static/img/tiles_copy/71a1c.png">
+          <img src="../static/img/tiles_copy/f3282.png">
+          <img src="../static/img/tiles_copy/3949a.png">
+        </div>
+        <div class="column">
+          <img src="../static/img/tiles_copy/19581.png">
+          <img src="../static/img/tiles_copy/624b6.png">
+          <img src="../static/img/tiles_copy/031b4.png">
+          <img src="../static/img/tiles_copy/87226.png">
+          <img src="../static/img/tiles_copy/6e400.png">
+          <img src="../static/img/tiles_copy/9f1f9.png">
+          <img src="../static/img/tiles_copy/13671.png">
+          <img src="../static/img/tiles_copy/0fecf.png">
+          <img src="../static/img/tiles_copy/8cd25.png">
+          <img src="../static/img/tiles_copy/a4e00.png">
+          <img src="../static/img/tiles_copy/314f0.png">
+          <img src="../static/img/tiles_copy/6af1f.png">
+          <img src="../static/img/tiles_copy/e888a.png">
+          <img src="../static/img/tiles_copy/27e16.png">
+          <img src="../static/img/tiles_copy/8bd9c.png">
+          <img src="../static/img/tiles_copy/1038e.png">
+        </div>
+        <div class="column">
+          <img src="../static/img/tiles_copy/4a44d.png">
+          <img src="../static/img/tiles_copy/eb1e3.png">
+          <img src="../static/img/tiles_copy/41cfc.png">
+          <img src="../static/img/tiles_copy/96061.png">
+          <img src="../static/img/tiles_copy/e3d6c.png">
+          <img src="../static/img/tiles_copy/28dae.png">
+          <img src="../static/img/tiles_copy/36ebe.png">
+          <img src="../static/img/tiles_copy/c75de.png">
+          <img src="../static/img/tiles_copy/01d54.png">
+          <img src="../static/img/tiles_copy/5a39c.png">
+          <img src="../static/img/tiles_copy/36790.png">
+          <img src="../static/img/tiles_copy/749fc.png">
+          <img src="../static/img/tiles_copy/9e6a7.png">
+          <img src="../static/img/tiles_copy/e0850.png">
+          <img src="../static/img/tiles_copy/d874e.png">
+          <img src="../static/img/tiles_copy/9e11c.png">
+        </div>
+        <div class="column">
+          <img src="../static/img/tiles_copy/4fc82.png">
+          <img src="../static/img/tiles_copy/e29c9.png">
+          <img src="../static/img/tiles_copy/2858d.png">
+          <img src="../static/img/tiles_copy/eb624.png">
+          <img src="../static/img/tiles_copy/ad48f.png">
+          <img src="../static/img/tiles_copy/e5b86.png">
+          <img src="../static/img/tiles_copy/d80ea.png">
+          <img src="../static/img/tiles_copy/7ed8f.png">
+          <img src="../static/img/tiles_copy/30684.png">
+          <img src="../static/img/tiles_copy/27bad.png">
+          <img src="../static/img/tiles_copy/67e9c.png">
+          <img src="../static/img/tiles_copy/14063.png">
+          <img src="../static/img/tiles_copy/4be84.png">
+          <img src="../static/img/tiles_copy/1e68e.png">
+          <img src="../static/img/tiles_copy/090d3.png">
+          <img src="../static/img/tiles_copy/a4e98.png">
+        </div>
+        <div class="column">
+          <img src="../static/img/tiles_copy/6b51d.png">
+          <img src="../static/img/tiles_copy/c6f3a.png">
+          <img src="../static/img/tiles_copy/2fca3.png">
+          <img src="../static/img/tiles_copy/f369c.png">
+          <img src="../static/img/tiles_copy/7b1a2.png">
+          <img src="../static/img/tiles_copy/2ac87.png">
+          <img src="../static/img/tiles_copy/d6a40.png">
+          <img src="../static/img/tiles_copy/ff2cc.png">
+          <img src="../static/img/tiles_copy/7b697.png">
+          <img src="../static/img/tiles_copy/43974.png">
+          <img src="../static/img/tiles_copy/9b871.png">
+          <img src="../static/img/tiles_copy/72440.png">
+          <img src="../static/img/tiles_copy/bba58.png">
+          <img src="../static/img/tiles_copy/a0d17.png">
+          <img src="../static/img/tiles_copy/38b83.png">
+          <img src="../static/img/tiles_copy/02cca.png">
+        </div>
+        <div class="column">
+          <img src="../static/img/tiles_copy/3fdba.png">
+          <img src="../static/img/tiles_copy/86e50.png">
+          <img src="../static/img/tiles_copy/02d20.png">
+          <img src="../static/img/tiles_copy/f74ef.png">
+          <img src="../static/img/tiles_copy/d6d82.png">
+          <img src="../static/img/tiles_copy/85daa.png">
+          <img src="../static/img/tiles_copy/8d27b.png">
+          <img src="../static/img/tiles_copy/a512d.png">
+          <img src="../static/img/tiles_copy/58081.png">
+          <img src="../static/img/tiles_copy/c17ed.png">
+          <img src="../static/img/tiles_copy/56f4d.png">
+          <img src="../static/img/tiles_copy/82c01.png">
+          <img src="../static/img/tiles_copy/768b8.png">
+          <img src="../static/img/tiles_copy/00328.png">
+          <img src="../static/img/tiles_copy/6d976.png">
+          <img src="../static/img/tiles_copy/24529.png">
+        </div>
+        <div class="column">
+          <img src="../static/img/tiles_copy/8527a.png">
+          <img src="../static/img/tiles_copy/9f140.png">
+          <img src="../static/img/tiles_copy/7688b.png">
+          <img src="../static/img/tiles_copy/a88a7.png">
+          <img src="../static/img/tiles_copy/29db0.png">
+          <img src="../static/img/tiles_copy/3038b.png">
+          <img src="../static/img/tiles_copy/dbae7.png">
+          <img src="../static/img/tiles_copy/bb668.png">
+          <img src="../static/img/tiles_copy/bfa76.png">
+          <img src="../static/img/tiles_copy/4621c.png">
+          <img src="../static/img/tiles_copy/84a50.png">
+          <img src="../static/img/tiles_copy/011af.png">
+          <img src="../static/img/tiles_copy/ea5b2.png">
+          <img src="../static/img/tiles_copy/d7cda.png">
+          <img src="../static/img/tiles_copy/48a17.png">
+          <img src="../static/img/tiles_copy/07919.png">
+        </div>
+        <div class="column">
+          <img src="../static/img/tiles_copy/e629f.png">
+          <img src="../static/img/tiles_copy/76a50.png">
+          <img src="../static/img/tiles_copy/c8376.png">
+          <img src="../static/img/tiles_copy/349c4.png">
+          <img src="../static/img/tiles_copy/8c1f1.png">
+          <img src="../static/img/tiles_copy/2abac.png">
+          <img src="../static/img/tiles_copy/2c7d5.png">
+          <img src="../static/img/tiles_copy/79d6e.png">
+          <img src="../static/img/tiles_copy/b8aed.png">
+          <img src="../static/img/tiles_copy/fc56d.png">
+          <img src="../static/img/tiles_copy/0e652.png">
+          <img src="../static/img/tiles_copy/37c20.png">
+          <img src="../static/img/tiles_copy/8acc2.png">
+          <img src="../static/img/tiles_copy/23c65.png">
+          <img src="../static/img/tiles_copy/43c72.png">
+          <img src="../static/img/tiles_copy/5426d.png">
+        </div>
+        <div class="column">
+          <img src="../static/img/tiles_copy/b17ef.png">
+          <img src="../static/img/tiles_copy/7a61b.png">
+          <img src="../static/img/tiles_copy/6208e.png">
+          <img src="../static/img/tiles_copy/98a3a.png">
+          <img src="../static/img/tiles_copy/ad573.png">
+          <img src="../static/img/tiles_copy/89aa1.png">
+          <img src="../static/img/tiles_copy/d4ee9.png">
+          <img src="../static/img/tiles_copy/3d328.png">
+          <img src="../static/img/tiles_copy/52f11.png">
+          <img src="../static/img/tiles_copy/f8809.png">
+          <img src="../static/img/tiles_copy/8f1f6.png">
+          <img src="../static/img/tiles_copy/396f8.png">
+          <img src="../static/img/tiles_copy/8b496.png">
+          <img src="../static/img/tiles_copy/af180.png">
+          <img src="../static/img/tiles_copy/226f7.png">
+          <img src="../static/img/tiles_copy/0bba8.png">
+        </div>
+        <div class="column">
+          <img src="../static/img/tiles_copy/45235.png">
+          <img src="../static/img/tiles_copy/aea92.png">
+          <img src="../static/img/tiles_copy/3e1e9.png">
+          <img src="../static/img/tiles_copy/48449.png">
+          <img src="../static/img/tiles_copy/16dc3.png">
+          <img src="../static/img/tiles_copy/1be00.png">
+          <img src="../static/img/tiles_copy/d6f0c.png">
+          <img src="../static/img/tiles_copy/3f980.png">
+          <img src="../static/img/tiles_copy/61a22.png">
+          <img src="../static/img/tiles_copy/5cf4e.png">
+          <img src="../static/img/tiles_copy/dfe62.png">
+          <img src="../static/img/tiles_copy/766cb.png">
+          <img src="../static/img/tiles_copy/f7478.png">
+          <img src="../static/img/tiles_copy/09895.png">
+          <img src="../static/img/tiles_copy/20e9c.png">
+          <img src="../static/img/tiles_copy/71047.png">
+        </div>
+        <div class="column">
+          <img src="../static/img/tiles_copy/4ec95.png">
+          <img src="../static/img/tiles_copy/0b918.png">
+          <img src="../static/img/tiles_copy/39fa9.png">
+          <img src="../static/img/tiles_copy/5316c.png">
+          <img src="../static/img/tiles_copy/37834.png">
+          <img src="../static/img/tiles_copy/a665a.png">
+          <img src="../static/img/tiles_copy/5ec1a.png">
+          <img src="../static/img/tiles_copy/bc52d.png">
+          <img src="../static/img/tiles_copy/28117.png">
+          <img src="../static/img/tiles_copy/96807.png">
+          <img src="../static/img/tiles_copy/9d693.png">
+          <img src="../static/img/tiles_copy/9f484.png">
+          <img src="../static/img/tiles_copy/d8d17.png">
+          <img src="../static/img/tiles_copy/33512.png">
+          <img src="../static/img/tiles_copy/86573.png">
+          <img src="../static/img/tiles_copy/556d7.png">
+        </div>
+        <div class="column">
+          <img src="../static/img/tiles_copy/9400f.png">
+          <img src="../static/img/tiles_copy/d59ec.png">
+          <img src="../static/img/tiles_copy/d029f.png">
+          <img src="../static/img/tiles_copy/a46e3.png">
+          <img src="../static/img/tiles_copy/454f6.png">
+          <img src="../static/img/tiles_copy/6affd.png">
+          <img src="../static/img/tiles_copy/be47a.png">
+          <img src="../static/img/tiles_copy/e0f05.png">
+          <img src="../static/img/tiles_copy/38b2d.png">
+          <img src="../static/img/tiles_copy/8df66.png">
+          <img src="../static/img/tiles_copy/08490.png">
+          <img src="../static/img/tiles_copy/1e472.png">
+          <img src="../static/img/tiles_copy/3635a.png">
+          <img src="../static/img/tiles_copy/6db6e.png">
+          <img src="../static/img/tiles_copy/8efbb.png">
+          <img src="../static/img/tiles_copy/058d5.png">
+        </div>
+        <div class="column">
+          <img src="../static/img/tiles_copy/f5ca3.png">
+          <img src="../static/img/tiles_copy/3d914.png">
+          <img src="../static/img/tiles_copy/81b8a.png">
+          <img src="../static/img/tiles_copy/bbb96.png">
+          <img src="../static/img/tiles_copy/5ef6f.png">
+          <img src="../static/img/tiles_copy/0f8ef.png">
+          <img src="../static/img/tiles_copy/0a5b0.png">
+          <img src="../static/img/tiles_copy/73d3f.png">
+          <img src="../static/img/tiles_copy/d6061.png">
+          <img src="../static/img/tiles_copy/83f81.png">
+          <img src="../static/img/tiles_copy/a0eae.png">
+          <img src="../static/img/tiles_copy/c75d3.png">
+          <img src="../static/img/tiles_copy/1c6c0.png">
+          <img src="../static/img/tiles_copy/7cb67.png">
+          <img src="../static/img/tiles_copy/74806.png">
+          <img src="../static/img/tiles_copy/7acc6.png">
+        </div>
+        <div class="column">
           <img src="../static/img/tiles_copy/6f4b6.png">
           <img src="../static/img/tiles_copy/73475.png">
           <img src="../static/img/tiles_copy/da4ea.png">
@@ -410,18 +412,16 @@
           <img src="../static/img/tiles_copy/377ad.png">
           <img src="../static/img/tiles_copy/eaa06.png">
         </div>
-        
-        </div>
+ 
       </div>
-
-
+    </div>
+ 
+ 
     <nav class="bottom-navbar">
-      <div class="center-items">
-        <a href="#">Game</a>
-        <a href="#">Map</a>
-        <a href="#">Notes</a>
-      </div>
+      <a href="game.html">Game</a>
+      <a href="map.html">Map</a>
+      <a href="notes.html">Notes</a>
     </nav>
-    
+ 
   </body>
 </html>
