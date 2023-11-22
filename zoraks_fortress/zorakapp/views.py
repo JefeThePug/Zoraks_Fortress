@@ -1,4 +1,4 @@
-from yourapplication import app
+from zorakapp import app
 
 @app.route('/')
 def index():

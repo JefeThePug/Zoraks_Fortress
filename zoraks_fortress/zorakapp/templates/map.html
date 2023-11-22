@@ -1,0 +1,15 @@
+{% extends "/base/base_bottom.html" %}
+
+{% block title %}MAP{% endblock %}
+
+{% block contents %}
+<div class="map">
+    {% for col in map_cols %}
+    <div class="column">
+        {% for img in cols %}
+        <img src="../static/img/tiles/{{img}}.png">
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
