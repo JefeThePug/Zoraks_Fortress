@@ -64,7 +64,7 @@ nav a {
   background-image: url('../img/notes.png');
   background-size: 100% 100%;
   flex-direction: column;
-  height: 85vh;
+  height: 82vh;
   width: 95vw;
   z-index: 1;
 }
@@ -132,7 +132,7 @@ label {
 }
 
 input {
-  background-color: #efe5d1;
+  background-color: #eadbc7;
   border: 0;
   border-bottom: 1rem solid #6d482d;
   border-radius: 0 0 7px 7px;
@@ -149,4 +149,19 @@ input {
 
 input:focus, input:hover {
   border-color: #00b023;
+}
+
+h2, h3{
+  color: #002e06;
+  text-align: center;
+}
+
+h4 {
+  margin: 0;
+  margin-left: 5%;
+}
+
+p a {
+  color: #00b023;
+  text-decoration: none;
 }
