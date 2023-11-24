@@ -1,22 +1,25 @@
-from common import *
+from zorakapp.common import *
 from typing import Dict, Union, List
 from string import punctuation
+import sys
 
 
 class Parser:
     def __init__(self, raw_cmd: str = ""):
         self.raw_cmd = raw_cmd.lower().strip()
+        self.initialize()
         self.clean_command()
         self.separate_parts()
         self.neutralize_verb()
 
-    def clean_command(self):
+    def initialize(self):
         # Initialize Parts
         self.verb = ""
         self.dir_obj_phrase = []
         self.preposition = ""
         self.obj_of_p_phrase = []
 
+    def clean_command(self):
         # Remove Punctuation
         cmd = self.raw_cmd.translate(self.raw_cmd.maketrans("", "", punctuation))
 
@@ -55,8 +58,8 @@ class Parser:
             self.dir_obj_phrase = words
 
     def neutralize_verb(self):
-        if self.verb not in CMDS:
-            self.clean_command()
+        if self.verb not in CMDS and self.verb != "start":
+            self.initialize()
             return
 
         for word, arr in CHART.items():
@@ -71,3 +74,6 @@ class Parser:
             "preposition": self.preposition,
             "obj_of_prep": self.obj_of_p_phrase,
         }
+
+    def __str__(self) -> str:
+        return f"{self.verb} {' '.join(self.dir_obj_phrase)} {self.preposition} {' '.join(self.obj_of_p_phrase)}".strip()

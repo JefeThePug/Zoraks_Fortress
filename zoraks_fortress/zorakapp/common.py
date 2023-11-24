@@ -5,7 +5,6 @@ GO = {
     "tiptoe",
     "travel",
     "crawl",
-    "start",
     "lead",
     "move",
     "swim",

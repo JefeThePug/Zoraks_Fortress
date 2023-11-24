@@ -9,3 +9,9 @@
     </div>
 </div>
 {% endblock %}
+
+{% block canmap %}
+{% if not map_available %}
+class="disabled"
+{% endif %}
+{% endblock %}

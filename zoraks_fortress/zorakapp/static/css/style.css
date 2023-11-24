@@ -165,3 +165,10 @@ p a {
   color: #00b023;
   text-decoration: none;
 }
+
+.disabled {
+  pointer-events: none;
+  color: gray;
+  text-decoration: none;
+  cursor: not-allowed;
+}

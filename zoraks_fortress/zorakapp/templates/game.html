@@ -6,19 +6,19 @@
 <div class="frame">
     <div class="story">
         <h2>Welcome to Zorak's Fortress...</h2>
-        <h3>༺✧─────•(𖡼𖤣𖥧𖡼𓋼𖤣↟𓍊✮𓍊↟𖤣𓋼𖡼𖥧𖤣𖡼)•─────✧༻</h3>
+        <h3>༺✧─────•(𖡼𖤣𖥧☆𓋼𖤣𖡼↟𓍊✮𓍊↟𖡼𖤣𓋼☆𖥧𖤣𖡼)•─────✧༻</h3>
         <p>
-            Embark on a journey in Zorak's Fortress, where your decisions shape 
+            Embark on a journey to Zorak's Fortress, where your decisions shape 
             the narrative. Uncover a world of intrigue and challenges as you 
             navigate through this Interactive Fiction text adventure.
         </p>
-        <h3>༺✧─────•(𖡼𖤣𖥧𖡼𓋼𖤣↟𓍊✮𓍊↟𖤣𓋼𖡼𖥧𖤣𖡼)•─────✧༻</h3>
+        <h3>༺✧─────•(𖡼𖤣𖥧☆𓋼𖤣𖡼↟𓍊✮𓍊↟𖡼𖤣𓋼☆𖥧𖤣𖡼)•─────✧༻</h3>
         <p>
             Commands are always input in the imperative tense and input directly 
-            into the command line at the bottom of this page, for example:
+            into the command line at the bottom of this page,<br>—for&nbsp;example:
         </p>
-        <h4>> go north</h4>
-        <h4>> give apple to squirrel</h4>
+        <h4>> go to north</h4>
+        <h4>> give acorn to squirrel</h4>
         <p>
             More detail on how to play can be found in the 
             <a href="#">How to Play</a> menu.
@@ -26,18 +26,24 @@
         <p>
             To embark on a new quest, simply type "<b>start</b>" into the command line. 
             Alternatively, revive past adventures by entering 
-            "<b>restore&nbsp;[game_name]</b>"—for example:
+            "<b>load&nbsp;[game_name]</b>"<br>—for&nbsp;example:
         </p>
-        <h4>> restore mysavedgame123</h4>
-        <h3>༺✧─────•(𖡼𖤣𖥧𖡼𓋼𖤣↟𓍊✮𓍊↟𖤣𓋼𖡼𖥧𖤣𖡼)•─────✧༻</h3>
+        <h4>> load mysavedgame123</h4>
+        <h3>༺✧─────•(𖡼𖤣𖥧☆𓋼𖤣𖡼↟𓍊✮𓍊↟𖡼𖤣𓋼☆𖥧𖤣𖡼)•─────✧༻</h3>
         <p>
             Venture forth and happy questing, hero. Remember to keep your wits 
             about you!...
         </p>
     </div>
-    <form class="input">
-        <label> > </label>
-        <input type="text" name="command" autocomplete="off">
+    <form class="input" method="post" action="/">
+        <label for="cmd"> > </label>
+        <input id="cmd" name="cmd" type="text" autocomplete="off" autofocus>
     </form>
 </div>
+{% endblock %}
+
+{% block canmap %}
+{% if not map_available %}
+class="disabled"
+{% endif %}
 {% endblock %}

@@ -6,10 +6,13 @@
 <div class="map">
     {% for col in map_cols %}
     <div class="column">
-        {% for img in cols %}
-        <img src="../static/img/tiles/{{img}}.png">
+        {% for img in col %}
+        <img src="/static/img/tiles/{{img}}.png">
         {% endfor %}
     </div>
     {% endfor %}
 </div>
+{% endblock %}
+
+{% block canmap %}
 {% endblock %}
