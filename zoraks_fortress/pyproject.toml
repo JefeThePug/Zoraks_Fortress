@@ -1,8 +1,27 @@
 [project]
 name = "zoraks_fortress"
-dependencies = [
-    "flask",
-]
+version = "0.1.0"
+
+[tool.flit.metadata]
+module = "zorakapp"
+author = "JefeThePug"
+description = "Text Adventure Game designed for the Practical Python server"
+home-page = "https://github.com/JefeThePug/Zoraks_Fortress"
+
+[tool.flit.dependencies]
+python = ">=3.6"
+flask = "2.3.2"
+flask-session = "0.5.0"
+flask-sqlalchemy = "3.1.1"
+blinker = "1.7.0"
+cachelib = "0.10.2"
+click = "8.1.7"
+itsdangerous = "2.1.2"
+jinja2 = "3.1.2"
+markupsafe = "2.1.3"
+sqlalchemy = "2.0.23"
+typing-extensions = "4.8.0"
+werkzeug = "3.0.1"
 
 [build-system]
 requires = ["flit_core<4"]
