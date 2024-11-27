@@ -84,7 +84,7 @@ Please ensure your code follows the existing style and is well-documented.
 
 ## License
 
-This Boggle game implementation is open-source and available for personal or educational use.
+This project is open-source and available for personal or educational use.
 
 ---
 
